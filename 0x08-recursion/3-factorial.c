@@ -1,17 +1,17 @@
 #include "main.h"
-/**
- * _puts_recursion - function like puts();
- * @s: input
- * Return: Always 0 (Success)
- */
-void _puts_recursion(char *s)
-{
-	if (*s)
-	{
-		_putchar(*s);
-		_puts_recursion(s + 1);
-	}
 
-	else
-		_putchar('\n');
+/**
+ * factorial - returns the factorial of a number
+ * @n: value of factorial to be returned
+ *
+ * Return: factorial of n
+ */
+int factorial(int n)
+{
+        if (n < 0)
+        return (-1);
+        if (n == 0)
+        return (1);
+        return (n * factorial(n - 1));
 }
+
