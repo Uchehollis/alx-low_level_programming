@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
+
 /**
- * main - entry point of the program
- * @argc: number of arguments passed to the program
- * @argv: array of arguments passed to the program
+ * main - Entry point of the program
+ * @argc: Number of arguments passed to the program
+ * @argv: Array of arguments passed to the program
  *
  * Return: 0 if successful, 1 if there was an error
  */
